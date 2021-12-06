@@ -42,5 +42,5 @@ Como Testar:
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/name
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/capital
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/area
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/name
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/name
+<p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/subRegion
+<p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/region
