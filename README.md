@@ -29,11 +29,11 @@ Como Testar:
 
 <p>c) - Modificar os dados de um país anteriormente criado;
 <p>method=PUT 
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/13
+<p>https://backend-2ibi.herokuapp.com/api/v1/countries/14
 
 <p>d) - Eliminar um país anteriormente criado;
 <p>method=DELETE 
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/13
+<p>https://backend-2ibi.herokuapp.com/api/v1/countries/14
 
 <p>e) - Ordenar a lista dos países por qualquer uma das suas propriedades.
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/{propriedade}
