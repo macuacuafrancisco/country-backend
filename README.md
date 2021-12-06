@@ -9,9 +9,14 @@
 Como Testar:
 <p>1 - Cadastar Região
 <p> POST : https://backend-2ibi.herokuapp.com/api/v1/regions
+<p> BODY :  name (String)
+  
 <p>2 - Cadastar Sub-região (contem ID da Região)
 <p> POST : https://backend-2ibi.herokuapp.com/api/v1/sub-regions
+<p> BODY :  name (String), region(Long - ID da região)
+  
 <p>3 - Seguir os passos abaixo para CRIAR,LISTAR,MODIFICAR,ELIMINAR paises
+<p> BODY :  name (String), capital (String), area (String), subRegion(Long - ID da sub-região) 
 
 <p>1 - Criar um novo país a partir da API criada com todas as suas propriedades;
 <p>method=POST 
