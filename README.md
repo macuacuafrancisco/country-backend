@@ -20,23 +20,19 @@ Como Testar:
 
 <p>
 <p>a) - Criar um novo país a partir da API criada com todas as suas propriedades;
-<p>method=POST 
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/
+<p>POST : https://backend-2ibi.herokuapp.com/api/v1/countries/
 
 <p>b) - Listar todos os países anteriormente criados;
-<p>method=GET 
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/
+<p>GET : https://backend-2ibi.herokuapp.com/api/v1/countries/
 
 <p>c) - Modificar os dados de um país anteriormente criado;
-<p>method=PUT 
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/14
+<p>PUT : https://backend-2ibi.herokuapp.com/api/v1/countries/14
 
 <p>d) - Eliminar um país anteriormente criado;
-<p>method=DELETE 
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/14
+<p>DELETE : https://backend-2ibi.herokuapp.com/api/v1/countries/14
 
 <p>e) - Ordenar a lista dos países por qualquer uma das suas propriedades.
-<p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/{propriedade}
+<p>GET : https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/{propriedade}
 
 <p>EXEMPLOS : 
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/name
