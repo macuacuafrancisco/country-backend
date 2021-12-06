@@ -19,7 +19,7 @@ import com.francisco.backend.repository.IRegionRepository;
  * @author Francisco da Conceição Alberto Macuácua
  */
 @RestController
-@RequestMapping("/api/v1/region")
+@RequestMapping("/api/v1/regions")
 public class RegionWS {
 	@Autowired
 	private IRegionRepository regionRepository;

@@ -19,7 +19,7 @@ import com.francisco.backend.repository.ISubRegionRepository;
  * @author Francisco da Conceição Alberto Macuácua
  */
 @RestController
-@RequestMapping("/api/v1/sub-region")
+@RequestMapping("/api/v1/sub-regions")
 public class SubRegionWS {
 	@Autowired
 	private ISubRegionRepository subRegionRepository;

@@ -9,12 +9,24 @@ import org.springframework.stereotype.Repository;
 
 import com.francisco.backend.entity.CountryEntity;
 
-// This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
-// CRUD refers Create, Read, Update, Delete
+/**
+ * @author Francisco da Conceição Alberto Macuácua
+ */
 @Repository
 public interface ICountryRepository extends JpaRepository<CountryEntity, Long> {
 
-	@Query("select c from COUNTRY c order by :pSort ")
-	List<CountryEntity> findOrdered(@Param("pSort") String sort);
+	@Query("select c from COUNTRY c order by name")
+	List<CountryEntity> findOrderedByName(@Param("pSort") String sort);
 
+	@Query("select c from COUNTRY c order by capital")
+	List<CountryEntity> findOrderedCapital(@Param("pSort") String sort);
+
+	@Query("select c from COUNTRY c order by subRegion")
+	List<CountryEntity> findOrderedBySubRegion(@Param("pSort") String sort);
+
+	@Query("select c from COUNTRY c order by subRegion.region")
+	List<CountryEntity> findOrderedByRegion(@Param("pSort") String sort);
+
+	@Query("select c from COUNTRY c order by area")
+	List<CountryEntity> findOrderedByArea(@Param("pSort") String sort);
 }

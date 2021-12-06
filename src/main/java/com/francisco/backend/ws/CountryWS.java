@@ -19,7 +19,7 @@ import com.francisco.backend.repository.ICountryRepository;
  * @author Francisco da Conceição Alberto Macuácua
  */
 @RestController
-@RequestMapping("/api/v1/country")
+@RequestMapping("/api/v1/countries")
 public class CountryWS {
 	@Autowired
 	private ICountryRepository countryRepository;
@@ -62,8 +62,22 @@ public class CountryWS {
 	
 	@GetMapping("/sort/by/{sort}")
 	public List<CountryEntity> findOrdered(@PathVariable String sort) {
-		System.out.println(sort);
-		return  countryRepository.findOrdered( sort);
+		switch (sort) {
+		case "name":
+			return  countryRepository.findOrderedByName( sort);
+		case "capital":
+			return  countryRepository.findOrderedCapital( sort);
+		case "subRegion":
+			return  countryRepository.findOrderedBySubRegion( sort);
+		case "region":
+			return  countryRepository.findOrderedByRegion( sort);
+		case "area":
+			return  countryRepository.findOrderedByArea( sort);
+		default:
+			break;
+		}
+		return null;		
+		
 	}
 	
 }
