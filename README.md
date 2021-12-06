@@ -18,23 +18,24 @@ Como Testar:
 <p>3 - Seguir os passos abaixo para CRIAR,LISTAR,MODIFICAR,ELIMINAR paises
 <p> BODY :  name (String), capital (String), area (String), subRegion(Long - ID da sub-região) 
 
-<p>1 - Criar um novo país a partir da API criada com todas as suas propriedades;
+<p>
+<p>a) - Criar um novo país a partir da API criada com todas as suas propriedades;
 <p>method=POST 
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/
 
-<p>2 - Listar todos os países anteriormente criados;
+<p>b) - Listar todos os países anteriormente criados;
 <p>method=GET 
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/
 
-<p>3 - Modificar os dados de um país anteriormente criado;
+<p>c) - Modificar os dados de um país anteriormente criado;
 <p>method=PUT 
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/13
 
-<p>4 - Eliminar um país anteriormente criado;
+<p>d) - Eliminar um país anteriormente criado;
 <p>method=DELETE 
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/13
 
-<p>5 - Ordenar a lista dos países por qualquer uma das suas propriedades.
+<p>e) - Ordenar a lista dos países por qualquer uma das suas propriedades.
 <p>https://backend-2ibi.herokuapp.com/api/v1/countries/sort/by/{propriedade}
 
 <p>EXEMPLOS : 
