@@ -13,17 +13,8 @@ public class HomeWS {
 
 	@GetMapping("/")
 	public String root() {
-		return "Welcome, use as example this URI http://localhost:8080/api/v1/country/ ";
+		return "Welcome to our back-end engeneer chalenge, https://github.com/macuacuafrancisco/country-backend/blob/main/README.md ";
 	}
 
-	@GetMapping("/api")
-	public String api() {
-		return "Welcome, use as example this URI http://localhost:8080/api/v1/country/ ";
-	}
-
-	@GetMapping("/api/v1")
-	public String v1() {
-		return "Welcome, use as example this URI http://localhost:8080/api/v1/country/ ";
-	}
 
 }
