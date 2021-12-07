@@ -13,7 +13,7 @@ public class HomeWS {
 
 	@GetMapping("/")
 	public String root() {
-		return "Welcome to our back-end engeneer chalenge, https://github.com/macuacuafrancisco/country-backend/blob/main/README.md ";
+		return "Welcome to our back-end engeneer chalenge, See how to test this API on https://github.com/macuacuafrancisco/country-backend/blob/main/README.md ";
 	}
 
 
